@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CompletedTASKS" representedClassName="CompletedTASKS" syncable="YES" codeGenerationType="class">
+        <attribute name="att" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ch" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="List" representedClassName="List" syncable="YES">
+        <attribute name="att" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="che" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="NEWLIST" representedClassName="NEWLIST" syncable="YES" codeGenerationType="class">
+        <attribute name="at" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ch" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="List" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="NEWLIST" positionX="-63" positionY="0" width="128" height="75"/>
+        <element name="CompletedTASKS" positionX="-54" positionY="18" width="128" height="75"/>
+    </elements>
+</model>
